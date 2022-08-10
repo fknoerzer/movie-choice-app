@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class WatchProvider {
-    private String watchProviderName;
+public class Genre {
+    private String genreName;
 }

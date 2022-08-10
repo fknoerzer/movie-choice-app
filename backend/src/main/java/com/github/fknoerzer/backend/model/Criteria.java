@@ -25,9 +25,11 @@ public class Criteria {
 
     private Number minRating;
 
-    private List<Genres> genres;
+    private List<Genre> genres;
 
-    private List<Cast> cast;
+    private List<Actor> actors;
+
+    private List<Director> directors;
 
     private List<WatchProvider> watchProviders;
 
