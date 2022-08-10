@@ -1,4 +1,4 @@
-package model;
+package com.github.fknoerzer.backend.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,11 +1,11 @@
-package controller;
+package com.github.fknoerzer.backend.controller;
 
+import com.github.fknoerzer.backend.service.CriteriaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.CriteriaService;
 
 
-import model.Criteria;
+import com.github.fknoerzer.backend.model.Criteria;
 
 @RestController
 @RequestMapping("api/criteria")

@@ -1,6 +1,6 @@
-package repository;
+package com.github.fknoerzer.backend.repository;
 
-import model.Criteria;
+import com.github.fknoerzer.backend.model.Criteria;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
