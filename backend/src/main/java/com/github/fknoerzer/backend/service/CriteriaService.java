@@ -1,11 +1,11 @@
-package service;
+package com.github.fknoerzer.backend.service;
 
+import com.github.fknoerzer.backend.repository.CriteriaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.CriteriaRepo;
 
 
-import model.Criteria;
+import com.github.fknoerzer.backend.model.Criteria;
 
 import java.util.NoSuchElementException;
 

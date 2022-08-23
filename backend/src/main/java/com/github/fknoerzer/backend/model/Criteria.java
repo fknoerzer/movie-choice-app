@@ -1,4 +1,4 @@
-package model;
+package com.github.fknoerzer.backend.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -25,9 +25,11 @@ public class Criteria {
 
     private Number minRating;
 
-    private List<Genres> genres;
+    private List<Genre> genres;
 
-    private List<Cast> cast;
+    private List<Actor> actors;
+
+    private List<Director> directors;
 
     private List<WatchProvider> watchProviders;
 
